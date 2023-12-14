@@ -109,7 +109,7 @@ class _tempcontrollerState extends State<tempcontroller> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            '${Temp.toStringAsFixed(1)}%', // Vous pouvez ajuster la précision des décimales selon vos besoins
+                            '${Temp.toStringAsFixed(1)}°C', // Vous pouvez ajuster la précision des décimales selon vos besoins
                             style: TextStyle(
                               fontSize: 32,
                               fontWeight: FontWeight.bold,
